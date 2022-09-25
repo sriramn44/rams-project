@@ -29,7 +29,7 @@ public class LoginController
             return "loginpage";
         }
 
-        model.put("username", "Admin");
+        model.put("usern", "Admin");
         return "home";
     }*/
     @RequestMapping("/home")
